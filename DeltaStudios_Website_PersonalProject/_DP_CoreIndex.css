@@ -1,0 +1,383 @@
+
+
+/*==========================================================================*/
+
+/*TestSandBox*/
+
+/*#testit_2 .container-fluid
+{
+	float: center;
+}*/
+
+/*under consideration*/
+/*.col-sm-4
+{
+	padding: 0px !important;
+}*/
+
+
+
+/*==========================================================================*/
+
+body
+			{
+				/*overflow: hidden;*/
+				text-align: center;
+				background: white;  /*For browsers that do not support gradients*/
+				background: -webkit-linear-gradient(left, black, red, green, blue, black); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(right, black, red, green, blue, black); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(right, black, red, green, blue, black); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(to right, black, red, green, blue, black); /* Standard syntax */
+			}
+p
+			{
+				font-size: 1.125em;
+				color: white;
+			}
+
+ul
+		{
+			color: white;
+		}
+li
+		{
+			font-size: 1.125em;
+			/*color:white;*/
+		}
+
+a
+{
+	color: yellow ;
+}
+a:hover
+			{
+				background-color: black;
+				color: magenta !important;
+			}
+/*a:visited
+					{
+						color: white !important;
+					}*/
+
+h1, h2, h3, h4, h5, h6
+								{
+								background: -webkit-linear-gradient(yellow, white, yellow);
+								/* For Safari 5.1 to 6.0 */
+												background: -o-linear-gradient(yellow, white, yellow);
+												/* For Opera 11.1 to 12.0 */
+												background: -moz-linear-gradient( yellow, white, yellow);
+												 /* For Firefox 3.6 to 15 */
+												background: linear-gradient(yellow, white, yellow);
+												 /* Standard syntax */
+												 /*background: -webkit-linear-gradient(yellow, black, yellow);*/
+								  -webkit-background-clip: text;
+								  /*font-family: 'Monsieur La Doulaise', cursive !important;*/
+								  -webkit-text-fill-color: transparent;
+								/*  padding-bottom: 1em;
+								  letter-spacing: 0.5em;*/
+								}
+
+.SectionDivider
+						{
+							 width: 50%;
+						}
+
+#Head_Er
+{
+
+
+					background: -webkit-linear-gradient(black, transparent);
+					/*Safari 5.1->6.0*/
+					background: -o-linear-gradient(black, transparent);
+					/*Opera 11.1->12.0*/
+					background: -moz-linear-gradient(black, transparent);
+					/*FireFox 3.6->15*/
+					background: linear-gradient(black, transparent);
+					/*Stndard Syntax*/
+}
+
+#Bootstrap_NavBar
+							{
+								/*for further research*/
+								/*margin:0;*/
+								/*border: 0;*/
+display: inline-block;
+							}
+
+
+
+
+
+						#testit_2 .col-sm-4
+						{
+margin: 0px ;
+							padding: 0px ;
+						}
+#HeaderImage
+						{
+
+							/*inset makes a nice pattern
+							in my oppinion*/
+							border-style: inset;
+
+							max-width: 640px ;
+    max-height: 240px ;
+						}
+
+	#NavList li a:hover
+									{
+										/*color: blue;*/
+									}
+									/*...well that turned out better then I thought at least*/
+
+.navbar-toggle
+						{
+							padding-bottom: 0px;
+						}
+
+#NavButton_Label p
+							{
+								color: white; margin-bottom: 5px;
+							}
+
+#Nav_SmallMenu
+						{
+							display: inline-block;
+						}
+#NavDiv
+				{
+
+					margin:0;
+					border: 0;
+					background: transparent;
+				}
+				div.Header_Link_1:hover
+												{
+													/*background-color: rgba(0, 0, 0, 0.5);*/
+												}
+
+
+						.dropdown-menu
+				{
+					background-color: black !important;
+					/*NTS: Actually needed*/
+				}
+				.dropdown-menu>li>a :visied
+				{
+					color: yellow ;
+				}
+
+						/*failed experiment with potential*/
+						/*.navbar-right li a:hover
+						{
+							background: -webkit-linear-gradient(white, black, white);
+	background: -o-linear-gradient(white, black, white);
+	background: linear-gradient(white, black, white);
+						}*/
+
+#Blurb_Well
+					{
+
+						background: transparent;
+
+						/*padding: 0px;*/
+					}
+					#Blurb_Well p
+											{
+												color: white;
+												border: 5px solid white;
+												border-style: groove;
+												padding: 5px;
+												margin: 0px;
+											}
+											#Blurb_Well p a
+																			{
+																				color: yellow;
+																				font-size: 105%;
+																			}
+
+
+
+/*#SitePage_Header
+							{
+								color: white;
+							}*/
+
+/*.PreNav_PopUp_Z
+						{
+							margin-left: 0px;
+							margin-left: 0px;
+						}*/
+
+#_Header_PopUp_Menu_L
+{
+	float: left;
+}
+
+#FeedBack_PopUp
+				{
+					display : none ;
+					background-color: #fff;
+/*float: left;*/
+				}
+				#FeedBack_PopUp p
+								{
+									color:black;
+								}
+#testit_2
+				{
+					display : none ;
+					background-color: #fff;
+				}
+				#testit_2 p
+								{
+
+								}
+#testit_3
+				{
+					display : none ;
+					background-color: #fff;
+				}
+				#testit_3 p
+								{
+									color:black;
+								}
+
+				button
+								{
+									background-color: transparent;
+									padding: 0;
+									margin: 0;
+									font-size: 3em;
+								}
+
+#Head_PopUp_Text_L
+							{
+								background: -webkit-linear-gradient(red, black, red);
+								background: -o-linear-gradient(red, black, red);
+								background: linear-gradient(red, black, red);
+								color: white;
+								/*margin-right: 0px;*/
+								cursor: pointer;
+
+								border: 1px solid red;
+
+							}
+#Head_PopUp_Text_C
+							{
+								background: -webkit-linear-gradient(green, black, green);
+								background: -o-linear-gradient(green, black, green);
+								background: linear-gradient(green, black, green);
+								color: white;
+								cursor: pointer;
+								border: 1px solid green;
+
+							/*margin-right: 0px;*/
+							}
+#Head_PopUp_Text_R
+							{
+								background: -webkit-linear-gradient(blue, black, blue);
+							background: -o-linear-gradient(blue, black, blue);
+							background: linear-gradient(blue, black, blue);
+								color: white;
+							cursor: pointer;
+								border: 1px solid blue;
+
+								/*margin-right:0;*/
+							}
+.Head_PopUp_Button
+							{
+								border: none;
+							}
+							.Head_PopUp_Button p
+															{
+																font-size: 1.25em;
+															}
+.Head_PopUp_Text
+						{
+							cursor: default;
+							font-size: 1.25em;
+						}
+						#Header_PopUps
+												{
+													width: 100%;
+													margin-right: auto;
+													margin-left: auto;
+													margin-bottom: 0px;
+												}
+
+	#Foot_Er
+						{
+							overflow: auto;
+							/*gets rid of whitespace bellow the footer div*/
+
+							background: transparent;
+							background: -webkit-linear-gradient(transparent, black);
+							/*Safari 5.1->6.0*/
+							background: -o-linear-gradient(transparent, black);
+							/*Opera 11.1->12.0*/
+							background: -moz-linear-gradient(transparent, black);
+							/*FireFox 3.6->15*/
+
+							background: linear-gradient(transparent, black);
+							/*Stndard Syntax*/
+						}
+						.Foot_Er_Text
+												{
+
+													/*below gradient makes the bottom "transparent-to-black" border look smoother*/
+													/*in my oppinion*/
+													/*hence the two "transparent" values instead of one*/
+													background: transparent;
+													background: -webkit-linear-gradient(transparent, transparent, black) !important;
+													/*Safari 5.1->6.0*/
+													background: -o-linear-gradient(transparent, transparent, black) !important;
+													/*Opera 11.1->12.0*/
+													background: -moz-linear-gradient(transparent, transparent, black) !important;
+													/*FireFox 3.6->15*/
+													background: linear-gradient(transparent, transparent, black)!important;
+													/*Stndard Syntax*/
+													font-size: 1em;
+												}
+
+	.testone
+						{
+							/*height: inherit !important;
+							margin-top: auto !important;
+							margin-bottom: auto !important;*/
+						}
+
+
+
+
+
+
+
+
+
+#Header_Row
+					{
+						/*margin: 0px;*/
+						/*padding: 0px;*/
+						/*below gradient removed due to appearance on big screens*/
+						/*background: -webkit-linear-gradient(transparent, black, transparent);
+						background: -o-linear-gradient(transparent, black, transparent);
+						background: linear-gradient(transparent, black, transparent);
+						background: -moz-linear-gradient(transparent,  black, transparent);*/
+					}
+
+
+
+
+
+/*the stuff below is currently being tested*/
+
+/*#SiteMapGridImg {
+    max-width: 1280px ;
+    max-height: 720px ;
+    margin: auto !important;
+    padding: 0px;
+    margin: 0px;
+    border: 10px solid white !important;
+    border-style: inset;
+}*/

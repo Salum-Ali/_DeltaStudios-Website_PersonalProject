@@ -9,9 +9,8 @@
 		any other head content must come *after* these tags -->
 		<!-- Apparently -->
 		<!-- Link - Global Stylesheet for the Site -->
-		<link rel="stylesheet" type="text/css" href="_DP_CoreIndex.css">
+		<link rel="stylesheet" type="text/css" href="CSS/_DP_CoreIndex.css">
 		<!-- Link - CSS for this specific webpage -->
-		<!-- <link rel="stylesheet" href="_DP_HomePage.css"> -->
 		<!-- Link - Any and all fonts used from Google Fonts go here -->
 	<!-- 	<link href='https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'> -->
 		<!-- Link - Any CSS Links to CSS Hover Effect Files used go here -->
@@ -409,17 +408,17 @@ that is my navbar -->
 
 		<!-- Jquery PopUp Script form http://dinbror.dk/bpopup/ -->
 		<!-- Nice Site, In My Oppinion -->
-		<script src="jquery.bpopup-x.x.x.min.js"></script>
+		<script src="JS/JQ/jquery.bpopup-x.x.x.min.js"></script>
 
 			<script>
 			;(function($) {
 			$(function() {
 			$('#Head_PopUp_Text_L').bind('click', function(e) {
 			e.preventDefault();
-			$('#testit_1').bPopup({
-			fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
-			followSpeed: 1500, //can be a string ('slow'/'fast') or int
-			modalColor: 'yellow'
+			$('#FeedBack_PopUp').bPopup({
+			// fadeSpeed: 1500, //can be a string ('slow'/'fast') or int
+			// followSpeed: 1500, //can be a string ('slow'/'fast') or int
+			// modalColor: 'black'
 			//       	easing: 'easeOutBack', //uses jQuery easing plugin
 			// speed: 450,
 			// transition: 'slideDown'
@@ -427,6 +426,8 @@ that is my navbar -->
 			// zIndex: 2,
 			// modalClose: false,
 			// position:[auto, auto]
+			//
+			// ???
 			});
 			});
 			});
@@ -439,16 +440,16 @@ that is my navbar -->
 			$('#Head_PopUp_Text_C').bind('click', function(e) {
 			e.preventDefault();
 			$('#testit_2').bPopup({
-			fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
-			followSpeed: 1500, //can be a string ('slow'/'fast') or int
-			modalColor: 'greenYellow'
-			//       	easing: 'easeOutBack', //uses jQuery easing plugin
+			// speed: 'slow', //can be a string ('slow'/'fast') or int
+			// followSpeed: slow, //can be a string ('slow'/'fast') or int
+			// modalColor: 'black'
+			      	// easing: 'easeOutBack', //uses jQuery easing plugin
 			// speed: 450,
 			// transition: 'slideDown'
-			// appendTo: 'form',
-			// zIndex: 2,
-			// modalClose: false,
-			// position:[auto, auto]
+
+			speed: 500,
+            transition: 'slideUp',
+	    // transitionClose: 'slideUp'
 			});
 			});
 			});
@@ -463,7 +464,7 @@ that is my navbar -->
 			$('#testit_3').bPopup({
 			fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
 			followSpeed: 1500, //can be a string ('slow'/'fast') or int
-			modalColor: 'greenYellow'
+			modalColor: 'black'
 			//       	easing: 'easeOutBack', //uses jQuery easing plugin
 			// speed: 450,
 			// transition: 'slideDown'
@@ -480,52 +481,18 @@ that is my navbar -->
 
 		<!-- Script to make all divs with class "Foot_Er_Text" - i.e. the footer bootstrap wells - the same size -->
 			<script>
-			$( document ).ready(function() {
-			var heights = $(".Foot_Er_Text").map(function() {
-			return $(this).height();
-			}).get(),
+				$( document ).ready(function() {
+				var heights = $(".Foot_Er_Text").map(function() {
+				return $(this).height();
+				}).get(),
 
-			maxHeight = Math.max.apply(null, heights);
+				maxHeight = Math.max.apply(null, heights);
 
-			$(".Foot_Er_Text").height(maxHeight);
-			});
+				$(".Foot_Er_Text").height(maxHeight);
+				});
 			</script>
 
-		<script src="jssor.slider.mini.js"></script>
 
-			<script>
-			// Simple (starter?) JQuery Slider Script Code
-			jQuery(document).ready(function ($) {
-			var options = { $AutoPlay: true };
-			var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-			});
-			</script>
-		<!-- jQuery Slider - Responsive Image Sizing -->
-			<script>
-			// responsive code begin
-			//you can remove responsive code if you dont want the slider scales while window resizes
-			function ScaleSlider() {
-			var windowWidth = $(window).width();
-			if (windowWidth) {
-			var windowHeight = $(window).height();
-			var origionalWidth = jssor_slider1.$OrigionalWidth();
-			var origionalHeight = jssor_slider1.$origionalHeight();
-			var scaleWidth = windowsWidth;
-			if (origionalWidth / windowWidth > origionalHeight / windowHeight) {
-			scaleWidth = Math.ceil(windowHeight / origionalHeight * origionalWidth);
-			}
-			jssor_slider1.$scaleWidth(scaleWidth);
-			}
-			else
-			window.setTimeout(ScaleSlider, 30);
-			}
-			ScaleSlider();
-			$(window).blind("load", ScaleSlider);
-			$(window).blind("resize", ScaleSlider);
-			$(window).blind("orientationchange", ScaleSlider);
-			//End Of Responsive JSSON Slider Code
-			// Well...That took a long time
-			</script>
 
 	</body>
 </html>

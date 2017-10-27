@@ -1,6 +1,6 @@
 # _DeltaStudios-Website_PersonalProject
 
-<DISCLAIMER> at the time of writing, this project is in what I'm calling Final-Pre-Alpha (FPA) stages. As such design elements may not be consistant. Help, Sugestions, Tips/Tricks, Constructive Criticism  and other things are more than welcome :)
+<DISCLAIMER> At the time of writing, this project is in what I'm calling Final-Pre-Alpha (FPA) stages. As such design elements may not be consistant. Help, Sugestions, Tips/Tricks, Constructive Criticism  and other things are more than welcome :)
 
 Hello and Welcome to my "DeltaStudios Web-Development Personal Project"! or DWPP(?) for short.
 

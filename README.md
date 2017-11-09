@@ -1,12 +1,12 @@
 # _DeltaStudios-Website_PersonalProject
 
-<DISCLAIMER> at the time of writing, this project is in what I'm calling Final-Pre-Alpha (FPA) stages. As such design elements may not be consistant. Help, Sugestions, Tips/Tricks, Constructive Criticism  and other things are more than welcome :)
+<DISCLAIMER> At the time of writing, this project is in what I'm calling Final-Pre-Alpha (FPA) stages. As such design elements may not be consistant. Help, Sugestions, Tips/Tricks, Constructive Criticism  and other things are more than welcome :)
 
-Hello and Welcome to my "DeltaStudios Web-Development Personal Project"! or... DWPP(?) for short.
+Hello and Welcome to my "DeltaStudios Web-Development Personal Project"! or DWPP(?) for short.
 
-'So, what is this DeltaStudios?' you may be asking?
+'So, what is this DeltaStudios?' you may, or may not, be asking?
 
-If not thats fine too, i'm gonna tell you anyway:
+If not thats fine too, I'm gonna tell you anyway:
 
 Delta Studios is a sub-section of Delta Productions (Formerly DeltaTech Productions), a Project that I - Salum Ali Muhammed - started as part of a Student Enterprise Awards Project that I previously produced with a couple of Secondary School classmates of mine. 
 

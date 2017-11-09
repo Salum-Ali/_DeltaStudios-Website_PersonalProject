@@ -62,7 +62,7 @@ a:hover
 
 h1, h2, h3, h4, h5, h6
 								{
-									line-height: 100% !important;
+									line-height: normal;
 								background: -webkit-linear-gradient(yellow, white, yellow);
 								/* For Safari 5.1 to 6.0 */
 												background: -o-linear-gradient(yellow, white, yellow);

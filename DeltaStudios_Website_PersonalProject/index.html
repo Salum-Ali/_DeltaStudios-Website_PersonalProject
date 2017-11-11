@@ -10,9 +10,9 @@
 		any other head content must come *after* these tags -->
 		<!-- Apparently -->
 		<!-- Link - Global Stylesheet for the Site -->
-		<link rel="stylesheet" type="text/css" href="CSS/_DP_CoreIndex.css">
+		<link rel="stylesheet" type="text/css" href="_DP_CoreIndex.css">
 		<!-- Link - CSS for this specific webpage -->
-		<link rel="stylesheet" href="CSS/_DP_HomePage.css">
+		<link rel="stylesheet" href="_DP_HomePage.css">
 		<!-- Link - Any and all fonts used from Google Fonts go here -->
 		<!-- Link - Any CSS Links to CSS Hover Effect Files used go here -->
 		<!-- <link rel="stylesheet" type="text/css" href="D:\W\WWW\_DeltaStudios\CSS\Hover-master\Hover-master\css\hover-min.css"> -->
@@ -37,7 +37,112 @@
 	<body>
 
 		<div id="Head_Er">
+<div id="Bootstrap_NavBar" >
+				<nav class="navbar navbar-default" id="NavDiv">
+					<div class="container-fluid">
+					<!-- //button - Active when screen size too small\\ -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<div id="NavButton_Label">
+									<p>
+										Click for Navbar
+									</p>
+								</div>
+								<div id="Nav_SmallMenu">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</div>
+							</button>
+							<!-- <a class="navbar-brand active" href="index.html">
+								<abbr title="DeltaStudios Logo (W.I.P.)">
+									<img u="image" src="DeltaProductions_TestLogo_0.4.jpg" id="HeaderImage" />
+								</abbr>
+							</a> -->
+						</div>
+					<!-- \\button - Active when screen size too small// -->
 
+		<hr class="SectionDivider" >
+
+						<!-- //Actual NavBar Content\\ -->
+						<div class="collapse navbar-collapse" id="myNavbar" >
+							<ul class="nav navbar-nav" id="NavList" >
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							        	"Protocol" Pages
+							        		<span class="caret"><!-- dont really know why this part is here --></span>
+									</a>
+							        <ul class="dropdown-menu">
+										<li>
+											<a href="index.html">
+												HomePage
+											</a>
+										</li>
+										<li>
+											<a href="AboutPage.html">
+												About
+											</a>
+										</li>
+
+									</ul>
+								</li>
+								<li>
+									<!-- <a class="navbar-brand active" href="index.html">
+										<abbr title="DeltaStudios Logo (W.I.P.)">
+											<img u="image" src="DeltaProductions_TestLogo_0.4.jpg" id="HeaderImage" />
+										</abbr>
+									</a> -->
+									<!-- could use some tweeking -->
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							        	Fun Stuff
+							        		<span class="caret"></span>
+									</a>
+							        <ul class="dropdown-menu">
+										<li>
+											<a href="ProjectsPage.html">
+												Projects
+											</a>
+										</li>
+										<li>
+											<a href="NewsFeedPage.html">
+												NewsFeed
+											</a>
+										</li>
+										<!-- <li>
+											<a href="#">
+												CV
+											</a>
+										</li> -->
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- \\Actual NavBar Content// -->
+						<!-- //Extra NavBar Content\\ -->
+						<div>
+							<ul class="nav navbar-right">
+								<li class="Header_Link_1">
+									<a href="#">
+										<span class="glyphicon glyphicon-user">
+											Sign Up
+										</span>
+									</a>
+								</li>
+								<li class="Header_Link_2">
+									<a href="#">
+										<span class="glyphicon glyphicon-Log-in">
+											Login
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- \\Extra NavBar Content// -->
+					</div>
+				</nav>
+			</div>
 			<div id="Bootstrap_NavBar" >
 				<nav class="navbar navbar-default" id="NavDiv">
 					<div class="container-fluid">
@@ -416,13 +521,13 @@
 		<!-- -Some More Bootstrap-Related Links (which are script tags):- -->
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="JS/bootstrap.min.js">
+		<script src="JS\bootstrap.min.js">
 
 		</script>
 
 		<!-- Jquery PopUp Script form http://dinbror.dk/bpopup/ -->
 		<!-- Nice Site, In My Oppinion -->
-		<script src="JS/JQ/jquery.bpopup-x.x.x.min.js">
+		<script src="jquery.bpopup-x.x.x.min.js">
 
 		</script>
 
@@ -508,7 +613,7 @@
 				});
 			</script>
 
-		<script src="JS/JQ/jssor.slider.mini.js">
+		<script src="jssor.slider.mini.js">
 
 		</script>
 

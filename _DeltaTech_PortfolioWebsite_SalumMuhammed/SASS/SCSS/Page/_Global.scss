@@ -1,0 +1,26 @@
+@import 'Layout/Head';
+@import 'Layout/Bod';
+@import 'Layout/Foot';
+@import 'Layout/Splitter';
+
+@import 'Particle/Text';
+
+@import 'Shard/Profile';
+
+@import 'Variable/Color';
+
+body
+{
+	
+    text-align: center;
+    background: white;
+    background: -webkit-linear-gradient(left, $black, $grey, $white, $grey, $black);
+    background: -o-linear-gradient(right, $black, $grey, $white, $grey, $black);
+    background: -moz-linear-gradient(right, $black, $grey, $white, $grey, $black);
+    background: linear-gradient(to right, $black,$grey, $white, $grey, $black);
+}
+
+// section
+// {
+// 	margin: 25px;
+// }

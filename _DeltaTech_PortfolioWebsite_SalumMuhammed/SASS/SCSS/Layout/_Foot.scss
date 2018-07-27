@@ -1,0 +1,32 @@
+	@import 'Shard/Map';
+	@import 'Shard/Credit';
+	@import 'Shard/Contact';
+
+.card
+{
+	background: transparent;
+
+}
+
+.card-group .card
+{
+		@extend .card;
+	margin: 0;
+	border: 1px solid white;
+}
+
+.card-deck .card
+{
+		@extend .card;
+	margin: 15px;
+	border: 1px solid white;
+}
+
+
+
+
+#infoCard, #contactCard, #creditCard
+{
+		// @extend .card;
+	
+}
